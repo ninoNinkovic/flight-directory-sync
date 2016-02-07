@@ -78,4 +78,4 @@ done
 
 echo
 
-#rm -rf $OUTPUT_DIR
+rm -rf $OUTPUT_DIR

@@ -50,6 +50,6 @@ Total number of Manifest files to transfer:        5
 09:43:31 COMPLETED /tmp/manifest_0/dataset_!_small_dataset_!_01
 09:43:33 COMPLETED /tmp/manifest_0/dataset_!_small_dataset_!_04
 09:43:36 COMPLETED /tmp/manifest_0/dataset_!_small_dataset_!_07
-09:43:40 COMPLETED /tmp/dataset_!_small_dataset_!_10
-09:43:42 COMPLETED /tmp/dataset_!_small_dataset_!_13
+09:43:40 COMPLETED /tmp/manifest_0/dataset_!_small_dataset_!_10
+09:43:42 COMPLETED /tmp/manifest_0/dataset_!_small_dataset_!_13
 ```

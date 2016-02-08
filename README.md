@@ -21,7 +21,8 @@ Creating manifest files in '/tmp/manifest' .
 Distributing manifests for parallel execution
   Creating directory '/tmp/manifest_0'  -  Use 'send_files.sh /tmp/manifest_0' to transfer files specified in 'manifest_0' manifests.
   Creating directory '/tmp/manifest_1'  -  Use 'send_files.sh /tmp/manifest_1' to transfer files specified in 'manifest_1' manifests.
-  Creating directory '/tmp/manifest_2'  -  Use 'send_files.sh /tmp/manifest_2' to transfer files specified in 'manifest_2' manifests. ```
+  Creating directory '/tmp/manifest_2'  -  Use 'send_files.sh /tmp/manifest_2' to transfer files specified in 'manifest_2' manifests.
+```
 
 
 ## send_files.sh
@@ -40,7 +41,7 @@ The results of the transfer will be placed in STATUS & LOG files. From the examp
 
 ### Example
 
- ```$ ./send_files.sh manifest_0/
+```$ ./send_files.sh manifest_0/
 
 Total number of Manifest files to transfer:        5
 
@@ -48,4 +49,5 @@ Total number of Manifest files to transfer:        5
 09:43:33 COMPLETED /tmp/manifest_0/dataset_!_small_dataset_!_04
 09:43:36 COMPLETED /tmp/manifest_0/dataset_!_small_dataset_!_07
 09:43:40 COMPLETED /tmp/dataset_!_small_dataset_!_10
-09:43:42 COMPLETED /tmp/dataset_!_small_dataset_!_13 ```
+09:43:42 COMPLETED /tmp/dataset_!_small_dataset_!_13
+```

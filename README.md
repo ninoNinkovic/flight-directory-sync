@@ -3,7 +3,7 @@ Bash scripts used to synchronize large number of files to Cloud storage using Si
 
 ## create_manifest.sh
 
-Creates multiple manifest files from the specified source directory. The cloud storage target path is encoded in the manifest file name. This is accomplished by replacing the directory separators with the character sequence "_!_". If this sequence of characters are used as part of a filename, the replacement string (DIR_SEP_PATTERN) must be replaced.
+Creates multiple manifest files from the specified source directory. The cloud storage target path is encoded in the manifest file name. This is accomplished by replacing the directory separators with the character sequence "\_!\_". If this sequence of characters are used as part of a filename, the replacement string (DIR_SEP_PATTERN) must be replaced.
 
 ### Usage
 

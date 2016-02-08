@@ -10,6 +10,7 @@ Creates multiple manifest files from the specified source directory. The cloud s
 ``` create_manifest.sh <Source Directory> <Manifest Output Directory> ```
 
 Source Directory - Specifies the directory to be transfered by Flight. Optional parameter, default value './'.
+
 Manifest Output Directory - Specifies temporary directory in which to create the manifest files. This directory will be created automatically. Optional parameter, default value './manifest'.
 
 ### Example

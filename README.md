@@ -1,5 +1,7 @@
 # flight-directory-sync
-Bash scripts used to synchronize large number of files to Cloud storage using Signiant Flight
+Signiant Flight is a file transfer service designed for large files. In certain situtations, with very large numbers of files in a large number of subfolders, Flight performance can be improved by using the file system to determine the files to transfer, and passing the list of files to the Flight command line interface (CLI).
+
+Signiant has developed these bash scripts which can be used to synchronize a large number of files to AWS or Azure using Signiant Flight.
 
 ## create_manifest.sh
 

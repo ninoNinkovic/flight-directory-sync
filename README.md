@@ -3,14 +3,14 @@ Bash scripts used to synchronize large number of files to Cloud storage using Si
 
 ## create_manifest.sh
 
-Creates multiple manifest files from the specified source directory. The cloud storage target path is encoded in the manifest file name. This is accomplished by replacing the directory separators with the chracter sequence "_!_". If this sequence of characeters are used as part of a filename, the replacement string (DIR_SEP_PATTERN) must be replaced.
+Creates multiple manifest files from the specified source directory. The cloud storage target path is encoded in the manifest file name. This is accomplished by replacing the directory separators with the character sequence "_!_". If this sequence of characters are used as part of a filename, the replacement string (DIR_SEP_PATTERN) must be replaced.
 
 ### Usage
 
 ``` create_manifest.sh <Source Directory> <Manifest Output Directory> ```
 
 Source Directory - Specifies the directory to be transfered by Flight. Optional parameter, default value './'.
-Manifest Output Directory - Specifies temporary directory in which to create the manifiest files. This directory will be created automatically. Optional parameter, default value './manifest'.
+Manifest Output Directory - Specifies temporary directory in which to create the manifest files. This directory will be created automatically. Optional parameter, default value './manifest'.
 
 ### Example
 
@@ -28,7 +28,7 @@ Distributing manifests for parallel execution
 
 ## send_files.sh
 
-Sends all manifest files to Flight CLI application to be transfered to cloud storage. The cloud storage target path is encoded in the manifest file name. This is accomplished by replacing the directory separators with the chracter sequence "_!_". If this sequence of characeters are used as part of a filename, the replacement string (DIR_SEP_PATTERN) must be replaced. DIR_SEP_PATTERN **MUST** match the pattern used in create_manifest.sh script.
+Sends all manifest files to Flight CLI application to be transfered to cloud storage. The cloud storage target path is encoded in the manifest file name. This is accomplished by replacing the directory separators with the character sequence "\_!\_". If this sequence of characters are used as part of a filename, the replacement string (DIR_SEP_PATTERN) must be replaced. DIR_SEP_PATTERN **MUST** match the pattern used in create_manifest.sh script.
 
 The absolute path to the Flight CLI (AKA sigcli) **SHOULD** be specified in the SIG_CLI_DIR script variable. If it is not the script will attempt to run the CLI from the same directory as the send_file.sh script.
 

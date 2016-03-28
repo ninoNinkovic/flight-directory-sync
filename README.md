@@ -8,7 +8,7 @@ Run in “-init” mode first to create the set of manifests. The deeper the “
 
 Run in “-go” mode to execute the CLI against all of the pre-created manifests. By default there will be up to 6 parallel “launcher” processes, each of which will execute their designated manifests sequentially.
  
-## NOTES:
+NOTES:
 * The option names only have to be specified long enough to be unique (e.g. --man == --manifestfolder, etc).
 * Perl will have to be in the $PATH, as will the CLI (or have “.” in your $PATH and have the CLI in the working directory).
 * The default config file will be picked up if in the same directory as the CLI, otherwise you can explicitly specify which config file to use
